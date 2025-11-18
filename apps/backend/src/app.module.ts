@@ -12,6 +12,13 @@ import { StreamsModule } from './modules/streams/streams.module';
 import { AnalyticsModule } from './modules/analytics/analytics.module';
 import { TranscriptionModule } from './modules/transcription/transcription.module';
 import { UploadModule } from './modules/upload/upload.module';
+import { PlaylistsModule } from './modules/playlists/playlists.module';
+import { CommentsModule } from './modules/comments/comments.module';
+import { ChaptersModule } from './modules/chapters/chapters.module';
+import { QuizzesModule } from './modules/quizzes/quizzes.module';
+import { AccessLinksModule } from './modules/access-links/access-links.module';
+import { AuditModule } from './modules/audit/audit.module';
+import { SubtitlesModule } from './modules/subtitles/subtitles.module';
 
 @Module({
   imports: [
@@ -60,6 +67,13 @@ import { UploadModule } from './modules/upload/upload.module';
     AnalyticsModule,
     TranscriptionModule,
     UploadModule,
+    PlaylistsModule,
+    CommentsModule,
+    ChaptersModule,
+    QuizzesModule,
+    AccessLinksModule,
+    AuditModule,
+    SubtitlesModule,
   ],
 })
 export class AppModule {}

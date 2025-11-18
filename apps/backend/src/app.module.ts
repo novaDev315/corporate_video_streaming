@@ -19,6 +19,8 @@ import { QuizzesModule } from './modules/quizzes/quizzes.module';
 import { AccessLinksModule } from './modules/access-links/access-links.module';
 import { AuditModule } from './modules/audit/audit.module';
 import { SubtitlesModule } from './modules/subtitles/subtitles.module';
+import { DownloadsModule } from './modules/downloads/downloads.module';
+import { EditingModule } from './modules/editing/editing.module';
 
 @Module({
   imports: [
@@ -74,6 +76,8 @@ import { SubtitlesModule } from './modules/subtitles/subtitles.module';
     AccessLinksModule,
     AuditModule,
     SubtitlesModule,
+    DownloadsModule,
+    EditingModule,
   ],
 })
 export class AppModule {}

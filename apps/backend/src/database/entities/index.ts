@@ -12,3 +12,5 @@ export * from './video-quiz.entity';
 export * from './access-link.entity';
 export * from './audit-log.entity';
 export * from './video-transcript.entity';
+export * from './video-download.entity';
+export * from './video-edit.entity';

@@ -21,6 +21,18 @@ import { AuditModule } from './modules/audit/audit.module';
 import { SubtitlesModule } from './modules/subtitles/subtitles.module';
 import { DownloadsModule } from './modules/downloads/downloads.module';
 import { EditingModule } from './modules/editing/editing.module';
+import { WatchHistoryModule } from './modules/watch-history/watch-history.module';
+import { BookmarksModule } from './modules/bookmarks/bookmarks.module';
+import { RecommendationsModule } from './modules/recommendations/recommendations.module';
+import { SearchModule } from './modules/search/search.module';
+import { LiveChatModule } from './modules/live-chat/live-chat.module';
+import { LivePollsModule } from './modules/live-polls/live-polls.module';
+import { QAQueueModule } from './modules/qa-queue/qa-queue.module';
+import { MultiHostModule } from './modules/multi-host/multi-host.module';
+import { ThumbnailsModule } from './modules/thumbnails/thumbnails.module';
+import { ClipsModule } from './modules/clips/clips.module';
+import { ScreenRecordingModule } from './modules/screen-recording/screen-recording.module';
+import { AutoChaptersModule } from './modules/auto-chapters/auto-chapters.module';
 
 @Module({
   imports: [
@@ -78,6 +90,19 @@ import { EditingModule } from './modules/editing/editing.module';
     SubtitlesModule,
     DownloadsModule,
     EditingModule,
+    // New Feature Modules
+    WatchHistoryModule,
+    BookmarksModule,
+    RecommendationsModule,
+    SearchModule,
+    LiveChatModule,
+    LivePollsModule,
+    QAQueueModule,
+    MultiHostModule,
+    ThumbnailsModule,
+    ClipsModule,
+    ScreenRecordingModule,
+    AutoChaptersModule,
   ],
 })
 export class AppModule {}

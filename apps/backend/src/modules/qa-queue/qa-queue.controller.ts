@@ -10,7 +10,7 @@ import {
   Request,
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiBearerAuth } from '@nestjs/swagger';
-import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
+import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
 import { QAQueueService } from './qa-queue.service';
 import { QAQueueGateway } from './qa-queue.gateway';
 import { QuestionStatus } from '../../database/entities/qa-question.entity';
